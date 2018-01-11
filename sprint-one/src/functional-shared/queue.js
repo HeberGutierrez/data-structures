@@ -10,6 +10,7 @@ var Queue = function() {
   someInstance.dequeue = queueMethods.dequeue;
   someInstance.size = queueMethods.size;
 
+
   return someInstance;
 };
 
