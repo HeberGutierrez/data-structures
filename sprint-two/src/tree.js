@@ -43,7 +43,7 @@ treeMethods.removeFromParent = function() {
 
   this.parent.children.splice(index, 1);
   console.log(this.parent.children);
-  debugger;
+
   this.parent = null;
 };
 
